@@ -56,7 +56,43 @@
    text-align: left;
 
 }
+.container .orange h2{
+   
+    text-align: center;
+    font-size: 14px;
+  
+ 
+  
+  
+   
+ 
+ }
 
+
+
+.container .orange p{
+   
+   text-align: center;
+   font-size: 42px;
+     color: #fff;
+
+ 
+ 
+  
+
+}
+
+.container .goldenrod p{
+   
+    text-align: center;
+    font-size: 42px;
+      color: #fff;
+ 
+  
+  
+   
+ 
+ }
 .orange{
     width: 470px;
     padding: 6rem;
@@ -66,6 +102,8 @@
  
  
 }
+
+
 .goldenrod{
     width: 470px;
     padding: 6rem;
@@ -73,6 +111,18 @@
     grid-column: 2 /4;
   
 }
+
+.container .oldenrod h2{
+   
+    text-align: center;
+    font-size: 5px;
+  
+ 
+  
+  
+   
+ 
+ }
 .sub-container{
     display: flex;
     flex-direction: column;
@@ -105,4 +155,3 @@
 p span{
     color: white;
 }
-
