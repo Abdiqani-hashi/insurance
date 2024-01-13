@@ -5,7 +5,9 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+body{
+    background-color: #EAEAEA;
+}
 
 .container{
  
@@ -20,4 +22,12 @@
 
 }
 
+.navigation ul{
+    
+    width: 973px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 23px 0px 23px 23px;
+}
 

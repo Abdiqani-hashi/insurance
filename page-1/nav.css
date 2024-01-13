@@ -1,0 +1,29 @@
+
+
+.navigation{
+    position: relative;
+    right: 16px;
+
+}
+.navigation  li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navigation ul li a{
+    position: relative;
+    left: 50px;
+    right: 50px;
+    margin: 70px;
+}
+.navigation  a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+#home a{
+    color: #000000;
+}
+.gray a{
+    color: #919191;
+}
