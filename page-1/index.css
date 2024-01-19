@@ -1,33 +1,108 @@
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
+ margin: 0;  
 }
+
 body{
-    background-color: #EAEAEA;
+    max-width: 834px;
+    margin: 0 auto; 
+
 }
 
+
+/*Containers*/
 .container{
- 
-
-    max-width: 1000px;
-    height: 100%;
-    margin: 0 auto;
-
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto;
+
 
 }
+/*Item colors-a*/
+.blue{
+    background-color: #C7DDEA;
+    padding: 3rem 3rem 0 3rem;
+ 
+}
 
-.navigation ul{
-    
-    width: 973px;
-    margin: 0 auto;
+
+.orange{
+
+    background-color: #F17949;
+    padding: 7.0rem;
+
+}
+.yellow{
+    background-color: #FAB131;
+    padding: 7.5rem;
+ 
+}
+
+/*Styling elements in the sub-container*/
+
+.segment{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 23px 0px 23px 23px;
+    align-items: center;
 }
 
+.container .blue figure img{
+    width: 250px;
+    padding: 4rem 0 0 1rem;
+
+} 
+
+/*styling the button*/
+.btn{
+    padding: 1.5rem 12rem;
+    border:none;
+    border-radius: 3rem;
+    position: relative;
+    left: -5.8rem;
+    top: 4rem;
+}
+
+/*h1 p and others inside the sub-container*/
+.blue h1{
+    padding: 14px 20px 4px 14px ;
+    margin-left: 1rem;
+}
+
+
+.blue p{
+    padding: 1rem 2rem 0 2rem;
+    
+}
+p span{
+    color: white;
+}
+.orange p{
+    
+    color: rgb(3, 2, 2);
+    font-size: 14.5px;
+    font-weight: 400px;
+}
+
+.orange h2{
+    font-weight: 800px;
+    font-size: 32px;
+    color: white;
+}
+.yellow p{
+    color: rgb(3, 2, 2);
+    font-size: 14.5px;
+    font-weight: 400px;
+
+}
+
+.yellow h2{
+    font-weight: 800px;
+    font-size: 36px;
+    color: white;
+}
+
+figure img{
+    position: relative;
+    left: 4.5rem;
+    bottom: -1.6rem;
+}
