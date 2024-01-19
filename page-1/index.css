@@ -97,12 +97,12 @@ p span{
 
 .yellow h2{
     font-weight: 800px;
-    font-size: 36px;
+    font-size: 32px;
     color: white;
 }
 
 figure img{
     position: relative;
     left: 4.5rem;
-    bottom: -1.6rem;
+    bottom: -0.3rem;
 }
